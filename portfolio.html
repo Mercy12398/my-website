@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Portfolio — Mihret Endale</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html">Mihret Endale</a>
+        <nav class="nav">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a href="blog.html">Blog</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <button id="menu-btn-3" class="menu-btn">☰</button>
+      </div>
+    </header>
+
+    <main class="container">
+      <h1>Portfolio</h1>
+      <p class="lead">
+        CTF write-ups, tools, and scripts. Click a card to view details or link
+        to GitHub.
+      </p>
+
+      <section id="ctfs" class="project-grid">
+        <article id="ctf-wgel" class="project">
+          <img src="assets/project-sample.jpg" alt="WGEL CTF" />
+          <div class="project-body">
+            <h3>WGEL CTF Write-up</h3>
+            <p>
+              Walkthrough: scanning, enumeration, exploiting a webapp to get
+              flags. Contains commands and screenshots.
+            </p>
+            <p class="proj-links">
+              <a href="#">Read write-up</a> · <a href="#">GitHub</a>
+            </p>
+          </div>
+        </article>
+
+        <article id="tool-portscan" class="project">
+          <img src="assets/tool-sample.jpg" alt="tool" />
+          <div class="project-body">
+            <h3>Port Discovery Tool</h3>
+            <p>
+              Small Python tool to discover hosts and ports. Options: with or
+              without nmap.
+            </p>
+            <p class="proj-links">
+              <a href="#">View code</a> · <a href="#">Demo</a>
+            </p>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>© <span id="year-3"></span> Mihret Endale</div>
+        <div class="socials">
+          <a href="#">GitHub</a><a href="#">LinkedIn</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

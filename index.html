@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Mihret Endale — Cybersecurity Portfolio</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html">Mihret Endale</a>
+        <nav class="nav">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a href="blog.html">Blog</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <button id="menu-btn" class="menu-btn">☰</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-inner">
+          <div class="hero-text">
+            <h1>Hi, I’m <span class="accent">Mihret Endale</span></h1>
+            <p class="lead">
+              Cybersecurity enthusiast • CTF player • Penetration tester in
+              training
+            </p>
+            <p>
+              I build tools, solve CTF challenges, and write detailed write-ups
+              to teach others.
+            </p>
+            <p class="cta-row">
+              <a class="btn" href="portfolio.html">View Portfolio</a>
+              <a class="btn outline" href="resume.pdf" download>Download CV</a>
+            </p>
+          </div>
+          <div class="hero-card">
+            <img src="assets/avatar.jpg" alt="avatar" class="avatar" />
+            <ul class="stats">
+              <li><strong>CTFs</strong><span>25+</span></li>
+              <li><strong>Projects</strong><span>10+</span></li>
+              <li><strong>Tools</strong><span>5</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="features container">
+        <article>
+          <h3>Skills</h3>
+          <p>
+            Linux · Networking · Python · Nmap · Wireshark · Web App Testing ·
+            SQLi · XSS
+          </p>
+        </article>
+        <article>
+          <h3>Current Focus</h3>
+          <p>
+            Improving web application pentesting skills and writing clear CTF
+            walkthroughs.
+          </p>
+        </article>
+        <article>
+          <h3>Contact</h3>
+          <p>
+            <a href="contact.html">Get in touch</a> — I'm available for
+            collaboration and mentorship.
+          </p>
+        </article>
+      </section>
+
+      <section class="highlights container">
+        <h2>Latest Projects</h2>
+        <div class="cards">
+          <div class="card">
+            <img src="assets/project-sample.jpg" alt="project" />
+            <h4>CTF: WGEL Write-up</h4>
+            <p>
+              Step-by-step write-up of the WGEL CTF challenge including nmap,
+              gobuster, and exploit notes.
+            </p>
+            <a class="small-link" href="portfolio.html#ctf-wgel"
+              >Read write-up →</a
+            >
+          </div>
+          <div class="card">
+            <img src="assets/tool-sample.jpg" alt="tool" />
+            <h4>Port discovery tool</h4>
+            <p>
+              Python tool for host and port discovery with optional nmap
+              integration.
+            </p>
+            <a class="small-link" href="portfolio.html#tool-portscan"
+              >View project →</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>© <span id="year"></span> Mihret Endale</div>
+        <div class="socials">
+          <a href="#">GitHub</a>
+          <a href="#">LinkedIn</a>
+          <a href="#">Twitter</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
